@@ -1,7 +1,5 @@
 import { Container, Grid, Paper } from '@mui/material'
 import SeeNotice from '../../components/SeeNotice';
-import ViewStdAttendance from '../student/ViewStdAttendance';
-import StudentAttendance from './studentRelated/StudentAttendance'
 import ViewStudent from './studentRelated/ViewStudent';
 import Students from "../../assets/img1.png";
 import Classes from "../../assets/img2.png";
