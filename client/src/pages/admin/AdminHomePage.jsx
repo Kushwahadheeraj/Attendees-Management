@@ -1,6 +1,8 @@
 import { Container, Grid, Paper } from '@mui/material'
 import SeeNotice from '../../components/SeeNotice';
-import ViewStdAttendance from '../student/ViewStdAttendance'
+import ViewStdAttendance from '../student/ViewStdAttendance';
+import StudentAttendance from './studentRelated/StudentAttendance'
+import ViewStudent from './studentRelated/ViewStudent';
 import Students from "../../assets/img1.png";
 import Classes from "../../assets/img2.png";
 import Teachers from "../../assets/img3.png";
@@ -79,7 +81,7 @@ const AdminHomePage = () => {
                     </Grid>
                     <Grid item xs={12} md={12} lg={12}>
                         <Paper sx={{ p: 2, display: 'flex', flexDirection: 'column' }}>
-                            <ViewStdAttendance />
+                            <ViewStudent />
                         </Paper>
                     </Grid>
                 </Grid>
